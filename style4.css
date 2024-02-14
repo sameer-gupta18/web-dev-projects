@@ -1,0 +1,171 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+.container{
+    margin:5px 10vw;
+    width:80vw;
+    height:auto;
+}
+.header{
+    background: #AB183D;
+    height:180px;
+    display:flex;
+}
+.header_img{
+    height:180px;
+    padding:10px;
+    width:15vw;
+}
+.header_img img{
+    height:160px;
+    width:auto;
+}
+.header_title{
+    width:85vw;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color:white;
+    padding-top:40px;
+}
+.header_title h1{
+    font-size:50px;
+}
+.header_title h3{
+    font-size: 20px;
+}
+.nav{
+    width:100%;
+    height:auto;
+    background: black;
+}
+.nav tr{
+    width:100%;
+    height:50px;
+}
+.nav th{
+    width:12.5%;
+    border:1px solid white;
+}
+.nav table{
+    width:100%;
+}
+.nav table a{
+    color:white;
+    text-decoration: none;
+}
+.head_body{
+    width:100%;
+    height:200px;
+    padding-top:25px;
+}
+.head_body h3,.head_body h5{
+    text-align:center
+}
+.head_body a{
+    color:blue;
+}
+.result_tools{
+    width:100%;
+    height:auto;
+}
+.result_tools h3{
+    background:rgb(0, 0, 155);
+    text-align: center;
+    width:25%;
+    margin:0px 38% 20px 38%;
+    padding:10px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.result_tools button{
+    text-align: center;
+    margin:5px 43%;
+    width:150px;
+    color:white;
+    background:rgb(27, 25, 25);
+    border:none;
+    padding:5px;
+    font-size: 12px;
+    border-radius: 12px;;
+    cursor: pointer;
+}
+.result_tools button:hover{
+    background-color:rgb(41, 37, 37);
+}
+.result_tools table{
+    width: 100%;
+}
+.result_tools th{
+    border:5px solid white;
+    width:25%;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.result_tools tr{
+    height:50px;
+}
+.resources{
+    height:auto;
+    width:100%;
+    margin-top: 40px;
+    padding:0px 20px;
+}
+.links_row1{
+    display:flex;
+    justify-content: center;
+}
+.links_result,.admit,.jobs,.answers,.syllabus,.certificates,.important{
+    width:33%;
+    margin:0px 20px;
+    border:2px solid rgb(0, 197, 0);
+}
+.resources h3{
+    text-align: center;
+    background-color: #AB183D;
+    width:100%;
+    color:white;
+    height:auto;
+    font-size: 25px;
+    padding:5px;
+}
+.links{
+    margin-top: 15px;
+    padding:0px 30px;
+}
+.resources a{
+    color:blue;
+    text-indent: 20px;
+    font-size: 1.1rem;
+}
+.resources li{
+    margin-bottom: 15px;
+}
+.resources h2{
+    float:right;
+    font-size: 1.2em;
+    color:blueviolet;
+    cursor:pointer;
+}
+.links_result h2{
+    margin:185px 10px 10px 10px;
+}
+.jobs h2{
+    margin:255px 10px 10px 10px;
+}
+.admit h2{
+    float:right;
+    margin:40px 10px 10px 10px;
+    font-size: 1.2em;
+    color:blueviolet;
+}
+.links_row2{
+    display:flex;
+    width:100%;
+    
+}

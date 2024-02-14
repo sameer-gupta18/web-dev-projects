@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.body{
+    background:url('images/img1.png');
+    height:auto;
+    width:60%;
+    padding:15px;
+}
+.a{
+    background:white;
+    border:5px solid lightgray;
+    border-right-color:gray;
+    border-bottom-color:gray;
+    height:auto;
+}
+.b{
+    margin:0px;
+    border:5px solid gray;
+    border-right-color:lightgray;
+    border-bottom-color:lightgray;
+    padding:30px;
+}
+.header{
+    height:150px;
+    width:100%;
+    background:darkkhaki;
+    border:2px solid green;
+    text-align:center;
+    display:block;
+    padding:25px 40px;
+}
+.header img{
+    height:100px;
+    width:auto;
+}
+.header h2{
+    display:inline;
+    font-family:Freestyle Script;
+    font-size:50px;
+}
+.img2{
+    width:20%;
+    float:left;
+    height:100px;
+}
+.c{
+    width:60%;
+    float:left;
+    height:100px;
+    padding:7% 0px;
+}
+.c h2{
+    font-family: Freestyle Script;
+    font-size:58px;
+
+}
+.img3{
+    width:20%;
+    float:left;
+    height:100px;
+}
+.links{
+    height:auto;
+    width:100%;
+    background:darkkhaki;
+    border:2px solid green;
+    text-align:center;
+    display:block;
+    margin-top:25px;
+    padding:5px;
+}
+a{
+    color:rgb(177, 0, 0);
+    text-align: center;
+}
+.info{
+    height:auto;
+    width:100%;
+    background:darkkhaki;
+    border:2px solid green;
+    text-align:center;
+    display:block;
+    margin-top:25px;
+    padding:0px 120px 20px 120px;
+}
+.info_main{
+    padding:20px 0px;;
+}
+.info_main h2,p,i{
+    text-align:left;
+}
+.info_main h2{
+    text-decoration:underline;
+}
+#subject{
+    font-family:Arial;
+    font-weight:bold;
+}
+#text{
+    font-style: italic;
+}
+.info_main i,.info_main a{
+    float:left;
+}
+.info_main i{
+    font-size:30px;
+    margin:0px 10px;;
+}
+.info_main a{
+    line-height:30px;
+    font-style:italic;
+    font-size:20px;
+}
+
+.cr{
+    height:auto;
+    width:100%;
+    background:darkkhaki;
+    text-align:center;
+    display:block;
+    margin-top:25px;
+}
+.cr p{
+    text-align:center;
+    font-weight:bold;
+    font-family:Arial;
+}
